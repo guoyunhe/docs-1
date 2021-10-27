@@ -51,6 +51,7 @@ architecting
 aren
 argv
 arping
+arptables
 askbot
 aske
 async
@@ -78,6 +79,7 @@ automattic
 automount
 autorelabel
 autorun
+autoscale
 autoscaler
 autoscaling
 autossh
@@ -86,8 +88,11 @@ autovacuum
 auxprop
 avz
 awk
+aws
 awstats
+axibase
 azc
+azlux
 backdoors
 backend
 backends
@@ -109,8 +114,12 @@ basearch
 bashdoor
 bashrc
 bc
+bdd
+benchmarked
 berkshelf
 bernd
+berners
+bing
 binlog
 biomes
 bitbucket
@@ -118,9 +127,11 @@ bitnami
 bitrate
 bitwarden
 blkid
+blockchain
 blocklists
 blockwise
 bluehost
+bokeh
 bookinfo
 boolean
 booleans
@@ -128,6 +139,7 @@ boolstyle
 boonex
 bootable
 bootloader
+bottlerocket
 bootup
 bootups
 boto
@@ -146,6 +158,7 @@ bukkit
 bundler
 bungeecord
 burndown
+busybox
 byrequests
 bzip2
 bzrtools
@@ -153,8 +166,10 @@ c2s
 cabd
 cacert
 cacheable
+cachable
 caddy
 caddyfile
+caffe
 cakey
 calc
 campione
@@ -184,6 +199,7 @@ checkmarx
 checksummed
 checksums
 chefspec
+Chevereto
 chgrp
 chmod
 chown
@@ -203,6 +219,8 @@ clickjacking
 client1
 client2
 clojure
+couchbase
+cloudant
 cloudflare
 cloudnet
 cloudron
@@ -236,11 +254,15 @@ containerised
 convolutional
 cookstyle
 coose
+copr
 copyfrom
 copyto
 coreutils
+coroutine
+coroutines
 corporateclean
 courseware
+cov
 cpanminus
 cpu
 cqlsh
@@ -268,6 +290,7 @@ ctools
 ctrl
 ctx
 cuda
+curlie
 cutover
 cyberduck
 cyberpanel
@@ -312,6 +335,7 @@ debconf
 declaratively
 deduplication
 defragment
+demultiplexer
 deprovisioning
 descolada
 descr
@@ -320,6 +344,7 @@ despawn
 dest
 dereference
 dereferencing
+desperados
 destructured
 dev
 devel
@@ -357,6 +382,9 @@ dockerfile
 dockerfiles
 dockerize
 dockerized
+docstring
+docstrings
+doctest
 dokku
 domain1
 domain2
@@ -365,6 +393,7 @@ domainkey
 domainname
 donenfeld
 dotdeb
+dotenv
 dotfiles
 doveadm
 dpkg
@@ -375,12 +404,15 @@ drush
 drwxr
 dshield
 dsn
+du
 ducati
 dust2
 dvcs
 e2fsck
 ea04
 ead
+ebtables
+ebuild
 ecommerce
 ecute
 edu
@@ -395,6 +427,7 @@ elpaso
 emacs
 email2email
 emojivoto
+emscripten
 ender
 enduser
 enix
@@ -404,11 +437,13 @@ epel
 erb
 erlang
 esc
+esm
 etcd
 etcd0
 eth0
 ethtool
 eugen
+eval
 evhost
 example1
 example2
@@ -453,6 +488,7 @@ fediverse
 fetchmail
 fetchmailrc
 ff02
+ffmpeg
 ffff
 fi
 fiiiile
@@ -473,6 +509,7 @@ filimonov
 findtime
 finnix
 firewalld
+firewalled
 firewalling
 firstsite
 flamegraph
@@ -482,6 +519,7 @@ flowlens
 flyspray
 foodcritic
 fortran
+fordham
 fmt
 fn
 fpm
@@ -557,8 +595,10 @@ goto
 gpasswd
 gpc
 gpg
+gping
 gradle
 grafana
+graphql
 graylog
 graylog2
 greenbone
@@ -571,6 +611,7 @@ groupinfo
 grsecurity
 gsa
 gsad
+gtop
 guacd
 gui
 gunicorn
@@ -597,6 +638,7 @@ hd0
 hdfs
 healthcheck
 heartbleed
+heredoc
 heroku
 hexo
 hiera
@@ -629,9 +671,12 @@ htmldir
 htop
 htpasswd
 http
+httpie
 httpchk
 httpd
 https
+huginn
+Hugo
 hulu
 hvc0
 hybla
@@ -677,6 +722,7 @@ imperva
 impor
 incentivized
 inclusivity
+Indri
 inet
 inet6
 infographic
@@ -689,10 +735,12 @@ inittab
 injectable
 inode
 inotify
+inrupt
 insmod
 inspec
 interdomain
 interruptible
+intra-application
 introducer
 introducers
 io
@@ -711,6 +759,7 @@ iptables
 ipv4
 ipv6
 ipwl
+ipytest
 irc
 irchelp
 ircname
@@ -730,6 +779,7 @@ Janca
 jamstack
 java6
 javac
+javalin
 javascript
 jdbc
 jdk
@@ -793,6 +843,7 @@ kloxo
 knowledgebase
 konsole
 konversation
+ktor
 kube
 kubeadm
 kubeconfig
@@ -809,17 +860,16 @@ lambdabunker
 laravel
 largebiomes
 launchd
-libmodsecurity
-livigno
 lbmethod
 lda
 ldap
+lego
 leiningen
+len
 lennart
 letsencrypt
 lf
-li181
-li263
+libmodsecurity
 lib32
 libaprutil1
 libc
@@ -834,6 +884,7 @@ libsasl2
 libyang
 libuv
 libvirt
+libzypp
 lifecycle
 lightbend
 lighthttpd
@@ -850,6 +901,9 @@ lish
 listdir
 listserv
 listservs
+livigno
+li181
+li263
 lke
 lksemel
 lo0
@@ -901,6 +955,8 @@ mailuser
 mailutils
 maitis
 makefile
+makefiles
+maller
 managesieve
 mandriva
 manjaro
@@ -910,6 +966,7 @@ mapreduce
 mariadb
 marino
 maskname
+mastercard
 masterdb
 masterless
 mathematica
@@ -944,6 +1001,7 @@ metapackage
 metaparameters
 metorik
 metricbeat
+metroid
 microblogging
 microblogs
 microservice
@@ -971,12 +1029,14 @@ mixin
 mixins
 mkdir
 mkpasswd
+mkv
 mnesia
 mngtmpaddr
 moby
 moddable
-moodle
 modsecurity
+Mojang
+moodle
 mongodb
 mongoimport
 monit
@@ -986,6 +1046,7 @@ morphisec
 motd
 mountpoint
 mouseover
+mov
 mpapis
 mpm
 msg
@@ -1001,12 +1062,15 @@ multicloud
 multicraft
 multilib
 multiline
+multilink
+multiplatform
 multiport
 multisite
 multiuser
 munin
 musl
 mutliverse
+mv
 myapp
 myblog
 mydestination
@@ -1066,6 +1130,7 @@ newgrp
 newtag
 nextcloud
 nexthop
+nfs
 nftables
 ng
 nginx
@@ -1073,6 +1138,7 @@ nginxdemos
 ngrok
 ngx
 nickcolor
+Nirvashare
 nixcraft
 nixpkgs
 nmap
@@ -1125,6 +1191,7 @@ oldfashioned
 oneof
 ons
 opcache
+openapi
 opencart
 opendkim
 openfire
@@ -1153,6 +1220,7 @@ owncast
 owncloud
 pacman
 paas
+packagist
 pagent
 pagespeed
 pandoc
@@ -1199,9 +1267,11 @@ pid
 pidfile
 pipfile
 pipenv
+pipelined
 piwik
 pki
 plaintext
+platformer
 plesk
 plex
 plone
@@ -1251,10 +1321,12 @@ productpage
 prosodyctl
 proto
 protobuf
+protoc
 protocode
 proxied
 proxying
 pscp
+pseudocode
 psql
 psudo
 psycop2
@@ -1267,6 +1339,7 @@ puppetlabs
 puppetmaster
 puttygen
 pv
+pvc
 pvgrub
 pwcheck
 px
@@ -1289,7 +1362,9 @@ qualys
 quickconnect
 quicklisp
 quickstart
+radeon
 ramdisk
+rauth
 rbac
 rbenv
 rc
@@ -1299,16 +1374,22 @@ rdbadmin
 rdiff
 readcaps
 reauthenticate
+reauthenticating
 readme
 readonly
 readwrite
 realtime
+rebase
+rebased
+rebases
+rebasing
 reconnections
 recordset
 recursing
 recv
 red5
 reddit
+redeclared
 redeployable
 redhat
 redir
@@ -1320,6 +1401,8 @@ redstone
 reenable
 reenabling
 referer
+reflog
+reflogs
 refspec
 regexes
 reimported
@@ -1354,11 +1437,13 @@ rimap
 ritchie
 rkhunter
 rkt
+rmdir
 rmem
 ro
 rochko
 rocommunity
 rollout
+rooknfs
 rossum
 roundcube
 routable
@@ -1409,6 +1494,7 @@ sbin
 sbopkg
 sbt
 scgi
+schroot
 schaeffer
 scm
 scp
@@ -1447,6 +1533,7 @@ setguid
 setsebool
 setuid
 setuptools
+Severalnines
 sfadmin
 sfproject
 sfroot
@@ -1471,6 +1558,7 @@ signup
 sintra
 sitename
 slackpkg
+slackware
 slavedb
 sls
 smartcard
@@ -1498,6 +1586,7 @@ sparklines
 spectre
 speedtest
 spf1
+Splunk
 spm
 spork
 sql
@@ -1525,6 +1614,7 @@ stopwait
 stopword
 stopwords
 storages
+streamlink
 su
 subcommand
 subcommands
@@ -1537,8 +1627,11 @@ submenu
 subnet
 subnets
 subnetwork
+subprocess
+subprocesses
 subqueries
 subquery
+subreddit
 subreddits
 substring
 substrings
@@ -1553,6 +1646,7 @@ superset
 supervisord
 supervisorctl
 surbma
+sury
 suse
 swappable
 svn
@@ -1585,6 +1679,7 @@ tcp
 tcpwrappers
 teamspeak
 teardown
+techland
 teleporting
 tensorflow
 terrahelp
@@ -1603,6 +1698,8 @@ thawte
 theano
 theming
 thingsboard
+tigervnc
+tightvncserver
 tika
 timedatectl
 timeframe
@@ -1613,6 +1710,7 @@ tinc
 tincd
 tinydb
 titlebar
+tl
 tld
 tls
 tlz
@@ -1630,6 +1728,7 @@ torvalds
 toolchain
 toolchains
 toolset
+towson
 traceroute
 trackbar
 traefik
@@ -1644,6 +1743,7 @@ ttl
 ttpd
 ttrss
 tty
+tumblr
 tun0
 tune2fs
 tunnelblick
@@ -1682,6 +1782,8 @@ unicast
 unicode
 uninvoiced
 uniq
+unittest
+unix
 unmanaged
 unmerged
 unmount
@@ -1731,6 +1833,7 @@ valheim
 validator
 variadic
 varnishlog
+vaultwarden
 vcs
 vdev
 vdevs
@@ -1754,6 +1857,7 @@ virtualized
 virtualmin
 vlan
 vlans
+vlc
 vlogger
 vmail
 vmem
@@ -1769,6 +1873,7 @@ vz
 vznetaddbr
 walkthrough
 wasn
+wasm
 wav
 wazuh
 webadmin
@@ -1784,6 +1889,7 @@ webmin
 webpack
 webpages
 webpy
+broot
 webroot
 webroots
 webserver
@@ -1815,9 +1921,9 @@ winscp
 windowlist
 wireguard
 wkhtmltopdf
+wkhtmltox
 wll
 wlp6s0
-wmem
 wordcloud
 wordcount
 wordfence
@@ -1836,11 +1942,15 @@ wx
 xabbix
 xap
 xargs
+Xbox
+xcaddy
 xcalc
 xcode
+xdist
 xen
 xenial
 xerus
+Xfce
 xkcd
 xlsx
 xlsxwriter
@@ -1881,6 +1991,8 @@ yubico
 yubikey
 zabbix
 zapier
+zcat
+zend
 zgrep
 zile
 zimbra
@@ -1895,3 +2007,4 @@ zpool
 zsh
 zshrc
 zxvf
+Zypper

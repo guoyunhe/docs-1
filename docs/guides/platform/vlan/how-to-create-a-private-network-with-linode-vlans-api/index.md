@@ -3,16 +3,16 @@ slug: vlan-api
 author:
   name: Linode
   email: docs@linode.com
-description: 'Create private networks in the cloud with Linode VLAN, where multiple Linodes can communicate privately and securely. This guide demonstrates how to use the Linode API to attach new and existing Linodes to VLANs.'
-og_description: 'Create private networks in the cloud with Linode VLAN, where multiple Linodes can communicate privately and securely. This guide demonstrates how to use the Linode API to attach new and existing Linodes to VLANs.'
+description: "Want to create your own private networks in the cloud? Here's how you can use the Linode API to do so by attaching new and existing Linodes to VLANs."
 keywords: ['linode vlan','linode vlan api']
 tags: ["security", "networking", "linode platform"]
 license: '[CC BY-ND 4.0](https://creativecommons.org/licenses/by-nd/4.0)'
 published: 2021-04-07
 modified_by:
   name: Linode
-title: "Creating a Private Network Using Linode API and Linode VLAN"
-h1_title: "How to Create a Private Network Using Linode API and Linode VLAN"
+title: "How to Create a Private Network with VLANs Using Linode's API"
+h1_title: "Creating a Private Network with VLANs Using Linode's API"
+enable_h1: true
 contributor:
   name: Linode
 aliases: ['/platform/vlan/how-to-create-a-private-network-with-linode-vlans-api/']
@@ -71,6 +71,10 @@ The `purpose` of a network interface is required and used to determine whether a
 - `public`: Configures a network interface for the public internet and enables the public (and private) IP address(es) for that Linode. If no network interface is configured as `public`, the Linode will not be able to access the internet or other Linodes within the data center's main private network.
 
 - `vlan`: Configures a network interface for the labeled VLAN and enables the Linode to communicate over the `ipam_address` if one is specified.
+
+{{< caution >}}
+The Public Internet must always be set to use the network interface `eth0`.
+{{< /caution >}}
 
 ### Configuring the Label of an Interface
 

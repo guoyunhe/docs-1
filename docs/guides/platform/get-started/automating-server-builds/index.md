@@ -34,7 +34,7 @@ Using a *golden image* as a configuration base is a frequent starting point in c
 1. Configure all packages, applications, and system settings as desired.
 1. Remove any system users you don't want to appear on your duplicated systems.
 1. Shut down the Linode and either:
-    - [Clone the disk](/docs/guides/linode-disks/#cloning-a-disk).
+    - [Clone the disk](/docs/guides/disks-and-storage/#cloning-a-disk).
     - Alternatively, [take a snapshot](/docs/guides/linode-backup-service/#take-a-manual-snapshot) of the disk with Linode Backups.
 1. Store your golden image. This can be done in a variety of ways. A few examples are:
   - As a snapshot using [Linode Images](/docs/guides/linode-images/) or [Linode Backups](/docs/platform/linode-backup-service/#take-a-manual-snapshot).
@@ -55,7 +55,7 @@ Golden disks are capable of handling automated server builds for most individual
 
 -   **Puppet:** An open source configuration management tool that manages systems declaratively. It can automates IT tasks like application configuration, patch management, and even infrastructure audit and compliance. See the following Puppet guides:
 
-    - [Basic Puppet Setup and Configuration](/docs/guides/basic-puppet-setup-and-configuration/)
+    - [Getting Started with Puppet - Basic Installation and Setup](/docs/applications/configuration-management/getting-started-with-puppet-6-1-basic-installation-and-setup/)
     - [Manage and Automate Systems Configuration with Puppet](/docs/guides/manage-and-automate-systems-configuration-with-puppet/)
     - [Use Puppet Modules to Create a LAMP Stack](/docs/guides/use-puppet-modules-to-create-a-lamp-stack/)
     - [Install and Manage MySQL Databases with Puppet Hiera on Ubuntu 16.04](/docs/guides/install-and-manage-mysql-databases-with-puppet-hiera-on-ubuntu-16-04/)

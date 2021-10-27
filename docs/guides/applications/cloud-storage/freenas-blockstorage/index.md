@@ -3,13 +3,13 @@ slug: freenas-blockstorage
 author:
   name: Edward Angert
   email: docs@linode.com
-description: 'FreeNAS is network-attached storage software configured through a web interface. This guide shows how to install FreeNAS and connect it to a Block Storage Volume.'
+description: "FreeNAS is network-attached storage software configured through a web interface.  Learn how to install FreeNAS and connect it to a Block Storage Volume."
 keywords: ["zfs","freenas","block storage","nas"]
 license: '[CC BY-ND 4.0](https://creativecommons.org/licenses/by-nd/4.0)'
 modified: 2018-05-17
 modified_by:
   name: Linode
-title: 'Install FreeNAS on a Linode with Block Storage'
+title: "Install FreeNAS on a Linode with Block Storage"
 published: 2018-05-07
 external_resources:
  - '[FreeNAS Volume Manager Manual](http://doc.freenas.org/11/storage.html)'
@@ -33,7 +33,7 @@ Any issues you may encounter with FreeNAS on your Linode are outside the scope o
 
 2.  Disable the [Lassie Shutdown Watchdog](/docs/uptime/monitoring-and-maintaining-your-server/#configure-shutdown-watchdog/) to prevent it from attempting to restart your Linode without your input. You can disable Lassie in the **Settings** tab of the Linode Manager under **Shutdown Watchdog**.
 
-3.  [Create two disk images](/docs/platform/disk-images/disk-images-and-configuration-profiles/#creating-a-blank-disk/):
+3.  [Create two disks](/docs/guides/disks-and-storage/#creating-a-disk):
 
     1.  **Label:** Installer
         * **Type:** unformatted / raw
@@ -43,7 +43,7 @@ Any issues you may encounter with FreeNAS on your Linode are outside the scope o
         * **Type:** unformatted / raw
         * **Size:** Can be set to use remaining disk. At least 10240MB
 
-4.  Create two configuration profiles with the following settings. In each profile, disable all of the options under **Filesystem/Boot Helpers**.
+4.  [Create two configuration profiles](/docs/guides/linode-configuration-profiles/#creating-a-configuration-profile) with the following settings. In each profile, disable all of the options under **Filesystem/Boot Helpers**.
 
     1.  **Label:** Installer
         * **Kernel:** Direct Disk
